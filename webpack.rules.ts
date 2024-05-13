@@ -28,4 +28,14 @@ export const rules: Required<ModuleOptions>['rules'] = [
       },
     },
   },
+  {
+    // loads .css files
+    test: /\.css$/,
+    include: /src/,
+    use: [                    
+        "style-loader",
+        "css-loader",
+        "postcss-loader"
+    ]
+  },
 ];
