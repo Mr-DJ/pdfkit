@@ -2,7 +2,7 @@
   "name": "pdfkit",
   "productName": "pdfkit",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Offline pdf utility kit.",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
@@ -44,6 +44,11 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@electron/asar": "^3.2.10",
+    "@npmcli/fs": "^3.1.1",
+    "@xterm/addon-fit": "^0.10.0",
+    "@xterm/addon-search": "^0.15.0",
+    "@xterm/xterm": "^5.5.0",
     "electron-squirrel-startup": "^1.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
