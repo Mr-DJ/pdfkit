@@ -8,10 +8,9 @@ function Hello() {
       <div className="Hello">
         <img width="200" alt="icon" src={icon} />
       </div>
-      <h1>Pdfkit</h1>
-      <div className="Hello">
-        
-      </div>
+      <h2 className="bg-red-500 text-center text-white">
+        Welcome to pdfkit.
+      </h2>
     </div>
   );
 }
